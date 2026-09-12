@@ -14,8 +14,10 @@ Program Design:
 	Implements the LZW algorithm with fixed bit-length encoding, where the bit-length is selected by the user. The maximum size of the table is 2^N, where N is the bit-length.
 
 Explanation for files:
+
 	READ_ME.txt:
 		This file. It contains an explanation of each file found in the project. 
+		
 	input0.txt:
 		This is sample input that is found in the project, "abbbab", to test the encode and decode commands.
 		Expected output for encoding: [97,98,257,256]
